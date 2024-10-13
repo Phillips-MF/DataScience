@@ -38,7 +38,7 @@ performance_predictor.add(Dense(units = 1, activation = 'linear'))
 performance_predictor.compile(loss = 'mean_absolute_error', optimizer = 'adam', metrics = ['mean_absolute_error'])
 
 #Training session
-performance_predictor.fit(predictioners_training, classes_training, batch_size=10, epochs = 100)
+performance_predictor.fit(predictioners_training, classes_training, batch_size=10, epochs = 200)
 
 #Test
 prediction = performance_predictor.predict(predictioners_test)
