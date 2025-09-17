@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: db-utils-postgres
+Version: 0.1.0
+Summary: Uma biblioteca para gerenciar a conexão com PostgreSQL.
+Author: Felipe
+Requires-Dist: psycopg2-binary
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: summary
